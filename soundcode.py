@@ -26,7 +26,7 @@ def checkfile(filename):
 
 
 dir = os.getcwd()
-filename = raw_input("Fichier ? ")
+filename = raw_input("File ? (Relative path) ")
 checkfile(dir + "\\" + filename)
 
 raw_input()
